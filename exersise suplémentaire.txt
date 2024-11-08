@@ -1,0 +1,43 @@
+1)si prologue du document XML déclare standalone="a", cela signifie qu'il y a une erreur de syntaxe. La valeur de standalone doit être "yes" ou "no". Pour indiquer l'emplacement de la DTD, on utilise la déclaration <!DOCTYPE> avec un chemin vers la DTD externe ou une DTD interne.
+
+2)Non, un document XML ne peut avoir qu'une seule DTD. Cependant, cette DTD peut inclure des entités externes.
+
+3)Le composant fondateur d'un document XML est l'élément racine, qui contient tous les autres éléments du document.
+
+4)Différences entre un élément et un attribut :
+
+Un élément peut contenir des sous-éléments et du texte, tandis qu'un attribut ne peut contenir que des valeurs simples.
+
+Les éléments sont représentés par des balises de début et de fin, tandis que les attributs sont inclus dans la balise de début d'un élément.
+Les éléments peuvent être imbriqués, tandis que les attributs ne peuvent pas l'être.
+
+4)Oui, une DTD est requise pour qu'un document soit valide. La DTD définit la structure et les règles que le document XML doit suivre.
+
+5)Une DTD interne est une DTD définie directement dans le document XML, entre les balises <!DOCTYPE>.
+
+6)Une DTD est requise pour qu'un document XML soit : a) valide
+
+7)Les DTD sont partagées entre des documents XML en utilisant des références externes dans la déclaration <!DOCTYPE>, pointant vers un fichier DTD commun.
+
+8)Deux types de secteurs industriels ou de disciplines académiques pour lesquels une DTD commune est disponible :
+
+Secteur de la publication (par exemple, DTD pour les articles scientifiques)
+
+9)Secteur de la santé (par exemple, DTD pour les dossiers médicaux électroniques)
+
+10)Oui, les DTD peuvent être éditées pour répondre aux besoins spécifiques des applications.
+
+11)Vrai. Les données binaires ne sont pas parsées par les analyseurs XML standard.
+12)pour une application d'aide, on utilise généralement des balises de documentation spécifiques définies par la DTD ou le schéma XML de l'application.
+
+13)Une DTD peut ajouter des entités : a) internes b) externes c) paramètres
+
+14)Une entité paramètre est identifiée par un pourcentage (%) suivi du nom de l'entité dans la DTD.
+
+15)IGNORE et INCLUDE ne sont pas couramment utilisés en XML standard, mais ils peuvent être utilisés dans des DTD pour inclure ou ignorer des sections de la DTD.
+
+16)Le but et le rôle des symboles dans une DTD : a) * : indique que l'élément peut apparaître zéro ou plusieurs fois. b) , : sépare les éléments dans une séquence ordonnée. c) ? : indique que l'élément est facultatif et peut apparaître zéro ou une fois. d) | : indique une sélection entre plusieurs éléments (ou logique).
+
+17)Un attribut n'est pas toujours obligatoire. Cela dépend de la définition dans la DTD.
+18)Pour indiquer qu'un attribut est facultatif, on utilise #IMPLIED dans la déclaration de l'attribut dans la DTD.
+

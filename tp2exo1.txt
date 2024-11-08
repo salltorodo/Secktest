@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UFT_8"?>
+<notes>
+	<note date="3 janvier">
+		<to>Bob</to>
+		<from>Alice</from>
+		<heading>Reminder</heading>
+		<body>Don't forget me this weekend!</body>
+	</note>
+ <!-- this is another note -->
+	<note date="5 janvier">
+		<to>Alice</to>
+		<from>Bob</from>
+		<body>No problem &amp; see you soon</body>
+	</note>
+	
+<note />
+</notes>
